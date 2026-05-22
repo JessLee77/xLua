@@ -1,0 +1,10 @@
+^D:\PROJECTLIBRARY\LUAJIT\BUILD_XLUA_WITH_LIBS-2.1.5_16KB\BUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build -BD:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build --check-stamp-file D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

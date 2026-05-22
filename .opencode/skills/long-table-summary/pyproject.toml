@@ -1,0 +1,8 @@
+[project]
+name = "long-table-summary"
+version = "1.0.0"
+description = "Batched table processing with parallel subagents"
+requires-python = ">=3.10"
+dependencies = [
+    "openpyxl>=3.1.0",
+]

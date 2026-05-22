@@ -1,0 +1,3 @@
+D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/CMakeFiles/xlua.dir
+D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/CMakeFiles/ALL_BUILD.dir
+D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

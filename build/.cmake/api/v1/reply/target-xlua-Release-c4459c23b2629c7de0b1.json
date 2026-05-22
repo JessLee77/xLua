@@ -1,0 +1,643 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/xlua.dll"
+		},
+		{
+			"path" : "Release/xlua.lib"
+		},
+		{
+			"path" : "Release/xlua.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_library",
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"include_directories",
+			"set_property"
+		],
+		"files" : 
+		[
+			"D:/Github/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 288,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 639,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 322,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 298,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 154,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 309,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3  /MT"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "LUA_BUILD_AS_DLL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LUA_COMPAT_APIINTCASTS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "LUA_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_WINSOCK_DEPRECATED_NO_WARNINGS"
+				},
+				{
+					"define" : "xlua_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/luajit-2.1.0b3/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-rapidjson/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-protobuf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lpeg"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3  /MT"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "LUA_BUILD_AS_DLL"
+				},
+				{
+					"define" : "xlua_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/luajit-2.1.0b3/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-rapidjson/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-protobuf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lpeg"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3  /MT"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "LUA_BUILD_AS_DLL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "USING_LUAJIT"
+				},
+				{
+					"define" : "xlua_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/luajit-2.1.0b3/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-rapidjson/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-protobuf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lpeg"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				14
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MT"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "LUA_BUILD_AS_DLL"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "LUA_LIB"
+				},
+				{
+					"define" : "xlua_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/luajit-2.1.0b3/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-rapidjson/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-protobuf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lpeg"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3  /MT"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "LUA_BUILD_AS_DLL"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "LUA_LIB"
+				},
+				{
+					"define" : "xlua_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/luajit-2.1.0b3/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-rapidjson/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-protobuf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lpeg"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3  /MT"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "LUA_BUILD_AS_DLL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "LUA_LIB"
+				},
+				{
+					"define" : "xlua_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/luajit-2.1.0b3/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-rapidjson/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lua-protobuf"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "D:/ProjectLibrary/LuaJIT/build_xlua_with_libs-2.1.5_16kb/build/lpeg"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "xlua::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "luajit-2.1.0b3\\src\\lua51.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "xlua",
+	"nameOnDisk" : "xlua.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "luasocket",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				13,
+				14
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/auxiliar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/except.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/inet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/io.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/luasocket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/mime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/options.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/select.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/tcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/timeout.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/udp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "luasocket/wsocket.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "i64lib.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "xlua.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 3,
+			"path" : "lua-rapidjson/source/rapidjson.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 4,
+			"path" : "lua-protobuf/pb.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 5,
+			"path" : "lpeg/lpcap.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 5,
+			"path" : "lpeg/lpcode.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 5,
+			"path" : "lpeg/lpprint.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 5,
+			"path" : "lpeg/lptree.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 5,
+			"path" : "lpeg/lpvm.c",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

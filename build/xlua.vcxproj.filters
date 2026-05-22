@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\auxiliar.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\buffer.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\except.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\inet.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\io.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\luasocket.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\mime.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\options.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\select.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\tcp.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\timeout.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\udp.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\luasocket\wsocket.c">
+      <Filter>luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\i64lib.c" />
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\xlua.c" />
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\lua-rapidjson\source\rapidjson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\lua-protobuf\pb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\lpeg\lpcap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\lpeg\lpcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\lpeg\lpprint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\lpeg\lptree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\lpeg\lpvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ProjectLibrary\LuaJIT\build_xlua_with_libs-2.1.5_16kb\build\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FB1E8E3E-3C46-31B9-9126-1EC65DA71081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="luasocket">
+      <UniqueIdentifier>{D35136A0-2277-348F-9D0D-02ABCCA68081}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
