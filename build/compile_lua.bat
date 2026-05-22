@@ -90,7 +90,7 @@ if exist "%INPUT%\" (
             if not exist "%%~dpd" mkdir "%%~dpd"
         )
         
-        echo Compiling: %%f
+        :: echo Compiling: %%f
         "%LUAJIT%" -b "%%f" "!OUTFILE!"
         if errorlevel 1 (
             echo   FAILED: %%f
