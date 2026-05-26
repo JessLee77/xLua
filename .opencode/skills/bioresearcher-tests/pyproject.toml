@@ -1,0 +1,6 @@
+[project]
+name = "bioresearcher-tests"
+version = "1.0.0"
+description = "Test runner for bioresearcher plugin"
+requires-python = ">=3.10"
+dependencies = []

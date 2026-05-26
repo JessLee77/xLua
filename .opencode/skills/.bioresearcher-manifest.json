@@ -1,0 +1,13 @@
+{
+  "version": "1.7.2",
+  "skills": [
+    "bioresearcher-core",
+    "bioresearcher-tests",
+    "demo-skill",
+    "env-jsonc-setup",
+    "gromacs-guides",
+    "long-table-summary",
+    "pubmed-weekly",
+    "python-setup-uv"
+  ]
+}

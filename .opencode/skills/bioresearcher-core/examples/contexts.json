@@ -1,0 +1,29 @@
+[
+  {
+    "file_path": "/absolute/path/to/data.xlsx",
+    "sheet_name": "Sheet1",
+    "batch_number": 1,
+    "row_start": 2,
+    "row_end": 31,
+    "output_file": "./outputs/batch001.md",
+    "instructions_json": "{\n  \"species\": \"Species classification: Tier1/Tier2/NA\",\n  \"topic\": \"Main topic: Oncology/Immunology/General Biology/Others\"\n}"
+  },
+  {
+    "file_path": "/absolute/path/to/data.xlsx",
+    "sheet_name": "Sheet1",
+    "batch_number": 2,
+    "row_start": 32,
+    "row_end": 61,
+    "output_file": "./outputs/batch002.md",
+    "instructions_json": "{\n  \"species\": \"Species classification: Tier1/Tier2/NA\",\n  \"topic\": \"Main topic: Oncology/Immunology/General Biology/Others\"\n}"
+  },
+  {
+    "file_path": "/absolute/path/to/data.xlsx",
+    "sheet_name": "Sheet1",
+    "batch_number": 3,
+    "row_start": 62,
+    "row_end": 91,
+    "output_file": "./outputs/batch003.md",
+    "instructions_json": "{\n  \"species\": \"Species classification: Tier1/Tier2/NA\",\n  \"topic\": \"Main topic: Oncology/Immunology/General Biology/Others\"\n}"
+  }
+]

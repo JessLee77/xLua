@@ -1,0 +1,8 @@
+[project]
+name = "pubmed-weekly"
+version = "1.0.0"
+description = "PubMed weekly daily updates downloader and processor"
+requires-python = ">=3.10"
+dependencies = [
+    "openpyxl>=3.1.0",
+]
