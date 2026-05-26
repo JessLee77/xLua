@@ -1,0 +1,4 @@
+D:/Github/xLua/build/luac/build64/CMakeFiles/luac.dir
+D:/Github/xLua/build/luac/build64/CMakeFiles/lua.dir
+D:/Github/xLua/build/luac/build64/CMakeFiles/ALL_BUILD.dir
+D:/Github/xLua/build/luac/build64/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lapi.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lcode.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lctype.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\ldebug.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\ldo.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\ldump.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lfunc.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lgc.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\llex.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lmem.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lobject.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lopcodes.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lparser.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lstate.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lstring.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\ltable.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\ltm.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lundump.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lvm.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lzio.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lauxlib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lbaselib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lbitlib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lcorolib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\ldblib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\liolib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lmathlib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\loslib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lstrlib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\ltablib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\linit.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\lutf8lib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\loadlib.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\xLua\build\lua-5.3.5\src\luac.c">
+      <Filter>..\lua-5.3.5\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\xLua\build\luac\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{07E02E35-14EA-3170-8509-10CB31FB0C60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\lua-5.3.5">
+      <UniqueIdentifier>{5782AA86-B7AA-39C3-9FA8-907B75D5E278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\lua-5.3.5\src">
+      <UniqueIdentifier>{E726FF3E-4BD0-329F-BE3D-38FF5961C6A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

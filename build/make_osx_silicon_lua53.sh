@@ -1,5 +1,5 @@
 mkdir -p build_osx_silicon && cd build_osx_silicon
-cmake -DBUILD_SILICON=ON -GXcode ../
+cmake -DLUAC_COMPATIBLE_FORMAT=ON -DBUILD_SILICON=ON -GXcode ../
 cd ..
 cmake --build build_osx_silicon --config Release
 mkdir -p plugin_lua53/Plugins/arm64/

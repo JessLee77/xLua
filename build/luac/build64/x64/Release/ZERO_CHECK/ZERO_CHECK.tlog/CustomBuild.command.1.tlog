@@ -1,0 +1,10 @@
+^D:\GITHUB\XLUA\BUILD\LUAC\BUILD64\CMAKEFILES\18B254030074F2DB46AEB7634E9F0AAE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/xLua/build/luac -BD:/Github/xLua/build/luac/build64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Github/xLua/build/luac/build64/luac.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

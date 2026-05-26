@@ -17,16 +17,34 @@ else
     # 尝试常见默认路径
     if [ -d "$HOME/android-ndk-r23b" ]; then
         NDK="$HOME/android-ndk-r23b"
+    elif [ -d "/mnt/c/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/AndroidPlayer/NDK" ]; then
+        NDK="/mnt/c/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
     else
-        echo "ERROR: Please set ANDROID_NDK or ANDROID_NDK_HOME to your NDK r23b root."
-        echo "  Example: export ANDROID_NDK=~/android-ndk-r23b"
-        exit 1
+        # 自动搜索 Unity NDK
+        UNITY_NDK=$(find "/mnt/c/Program Files/Unity/Hub/Editor" -maxdepth 5 -type f -name "source.properties" -path "*/AndroidPlayer/NDK/*" 2>/dev/null | head -1 | xargs dirname 2>/dev/null)
+        if [ -n "$UNITY_NDK" ] && [ -d "$UNITY_NDK" ]; then
+            NDK="$UNITY_NDK"
+        else
+            echo "ERROR: Please set ANDROID_NDK or ANDROID_NDK_HOME to your NDK r23b root."
+            echo "  Example: export ANDROID_NDK=~/android-ndk-r23b"
+            echo "  Or:      export ANDROID_NDK='/mnt/c/Program Files/Unity/Hub/Editor/<version>/Editor/Data/PlaybackEngines/AndroidPlayer/NDK'"
+            exit 1
+        fi
     fi
 fi
 
 if [ ! -d "$NDK" ]; then
     echo "ERROR: NDK directory not found: $NDK"
     exit 1
+fi
+
+# 如果路径包含空格, 创建符号链接到无空格路径
+if [[ "$NDK" == *" "* ]]; then
+    NDK_LINK="/tmp/android-ndk"
+    rm -f "$NDK_LINK"
+    ln -sf "$NDK" "$NDK_LINK"
+    NDK="$NDK_LINK"
+    echo "NDK path contains spaces, using symlink: $NDK_LINK"
 fi
 
 echo "Using Android NDK: $NDK"

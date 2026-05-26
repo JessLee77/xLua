@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Github/xLua/build/luac/build64/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

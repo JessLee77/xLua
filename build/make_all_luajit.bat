@@ -215,29 +215,39 @@ if errorlevel 1 (
     goto :SKIP_ANDROID
 )
 
+REM 检测是否有可用的 Linux 发行版 (排除 docker-desktop)
+wsl -d Ubuntu-24.04 -- echo "ok" >nul 2>&1
+if errorlevel 1 (
+    wsl -d Ubuntu -- echo "ok" >nul 2>&1
+    if errorlevel 1 (
+        echo [WARNING] No suitable WSL Linux distribution found. Skipping Android build.
+        echo           Install Ubuntu: wsl --install -d Ubuntu-24.04
+        goto :SKIP_ANDROID
+    )
+    set "WSL_DISTRO=Ubuntu"
+) else (
+    set "WSL_DISTRO=Ubuntu-24.04"
+)
+
 REM 将 Windows 路径转换为 WSL 路径
 set "WSL_BUILD_DIR=%BUILD_DIR:\=/%"
 set "WSL_BUILD_DIR=/mnt/%WSL_BUILD_DIR:~0,1%%WSL_BUILD_DIR:~2%"
-REM 转为小写盘符
-for %%a in (a b c d e f g h i j k l m n o p q r s t u v w x y z) do (
-    set "WSL_BUILD_DIR=!WSL_BUILD_DIR:/mnt/%%a=/mnt/%%a!"
-)
-REM 手动处理常见盘符大写转小写
 set "WSL_BUILD_DIR=%WSL_BUILD_DIR:/mnt/C=/mnt/c%"
 set "WSL_BUILD_DIR=%WSL_BUILD_DIR:/mnt/D=/mnt/d%"
 set "WSL_BUILD_DIR=%WSL_BUILD_DIR:/mnt/E=/mnt/e%"
 set "WSL_BUILD_DIR=%WSL_BUILD_DIR:/mnt/F=/mnt/f%"
 
+echo [INFO] WSL distro: %WSL_DISTRO%
 echo [INFO] WSL build path: %WSL_BUILD_DIR%
 
 REM 确保 shell 脚本有执行权限并运行
-wsl bash -c "cd '%WSL_BUILD_DIR%' && chmod +x make_android_luajit_ndk23.sh && bash make_android_luajit_ndk23.sh"
+wsl -d %WSL_DISTRO% -- bash -c "export ANDROID_NDK=~/android-ndk-r23b && cd '%WSL_BUILD_DIR%' && chmod +x make_android_luajit_ndk23.sh && bash make_android_luajit_ndk23.sh"
 if errorlevel 1 (
     echo [ERROR] Android build failed!
     echo         Please check WSL environment and NDK path.
     echo         You can also run manually in WSL:
     echo           cd %WSL_BUILD_DIR%
-    echo           export ANDROID_NDK=/path/to/android-ndk-r23b
+    echo           export ANDROID_NDK=~/android-ndk-r23b
     echo           bash make_android_luajit_ndk23.sh
 ) else (
     echo [OK] Android build completed
