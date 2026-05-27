@@ -26,7 +26,7 @@ events:
       用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
       版权所有(C) Microsoft Corporation。保留所有权利。
       
-      生成启动时间为 2026/5/26 11:51:32。
+      生成启动时间为 2026/5/27 11:05:06。
       节点 1 上的项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
@@ -52,7 +52,7 @@ events:
           0 个警告
           0 个错误
       
-      已用时间 00:00:00.55
+      已用时间 00:00:00.54
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -80,7 +80,7 @@ events:
       用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
       版权所有(C) Microsoft Corporation。保留所有权利。
       
-      生成启动时间为 2026/5/26 11:51:33。
+      生成启动时间为 2026/5/27 11:05:06。
       节点 1 上的项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-nl7ifw"
-      binary: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-nl7ifw"
+      source: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-g7m888"
+      binary: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-g7m888"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -138,39 +138,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-nl7ifw'
+        Change Dir: 'D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-g7m888'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_d4c92.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_5ac6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
         版权所有(C) Microsoft Corporation。保留所有权利。
         
-        生成启动时间为 2026/5/26 11:51:34。
-        节点 1 上的项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-nl7ifw\\cmTC_d4c92.vcxproj”(默认目标)。
+        生成启动时间为 2026/5/27 11:05:07。
+        节点 1 上的项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-g7m888\\cmTC_5ac6d.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_d4c92.dir\\Debug\\”。
-          正在创建目录“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-nl7ifw\\Debug\\”。
-          正在创建目录“cmTC_d4c92.dir\\Debug\\cmTC_d4c92.tlog\\”。
+          正在创建目录“cmTC_5ac6d.dir\\Debug\\”。
+          正在创建目录“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-g7m888\\Debug\\”。
+          正在创建目录“cmTC_5ac6d.dir\\Debug\\cmTC_5ac6d.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_d4c92.dir\\Debug\\cmTC_d4c92.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_5ac6d.dir\\Debug\\cmTC_5ac6d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4c92.dir\\Debug\\\\" /Fd"cmTC_d4c92.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ac6d.dir\\Debug\\\\" /Fd"cmTC_5ac6d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30140 版
           版权所有(C) Microsoft Corporation。保留所有权利。
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4c92.dir\\Debug\\\\" /Fd"cmTC_d4c92.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ac6d.dir\\Debug\\\\" /Fd"cmTC_5ac6d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-nl7ifw\\Debug\\cmTC_d4c92.exe" /INCREMENTAL /ILK:"cmTC_d4c92.dir\\Debug\\cmTC_d4c92.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-nl7ifw/Debug/cmTC_d4c92.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-nl7ifw/Debug/cmTC_d4c92.lib" /MACHINE:X64  /machine:x64 cmTC_d4c92.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_d4c92.vcxproj -> D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-nl7ifw\\Debug\\cmTC_d4c92.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-g7m888\\Debug\\cmTC_5ac6d.exe" /INCREMENTAL /ILK:"cmTC_5ac6d.dir\\Debug\\cmTC_5ac6d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-g7m888/Debug/cmTC_5ac6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-g7m888/Debug/cmTC_5ac6d.lib" /MACHINE:X64  /machine:x64 cmTC_5ac6d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5ac6d.vcxproj -> D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-g7m888\\Debug\\cmTC_5ac6d.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_d4c92.dir\\Debug\\cmTC_d4c92.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_d4c92.dir\\Debug\\cmTC_d4c92.tlog\\cmTC_d4c92.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-nl7ifw\\cmTC_d4c92.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_5ac6d.dir\\Debug\\cmTC_5ac6d.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_5ac6d.dir\\Debug\\cmTC_5ac6d.tlog\\cmTC_5ac6d.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-g7m888\\cmTC_5ac6d.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:00.55
+        已用时间 00:00:00.49
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-0fbavy"
-      binary: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-0fbavy"
+      source: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-budqoq"
+      binary: "D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-budqoq"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -224,39 +224,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-0fbavy'
+        Change Dir: 'D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-budqoq'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6fcda.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_f3a7d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
         版权所有(C) Microsoft Corporation。保留所有权利。
         
-        生成启动时间为 2026/5/26 11:51:35。
-        节点 1 上的项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-0fbavy\\cmTC_6fcda.vcxproj”(默认目标)。
+        生成启动时间为 2026/5/27 11:05:08。
+        节点 1 上的项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-budqoq\\cmTC_f3a7d.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_6fcda.dir\\Debug\\”。
-          正在创建目录“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-0fbavy\\Debug\\”。
-          正在创建目录“cmTC_6fcda.dir\\Debug\\cmTC_6fcda.tlog\\”。
+          正在创建目录“cmTC_f3a7d.dir\\Debug\\”。
+          正在创建目录“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-budqoq\\Debug\\”。
+          正在创建目录“cmTC_f3a7d.dir\\Debug\\cmTC_f3a7d.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_6fcda.dir\\Debug\\cmTC_6fcda.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_f3a7d.dir\\Debug\\cmTC_f3a7d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6fcda.dir\\Debug\\\\" /Fd"cmTC_6fcda.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f3a7d.dir\\Debug\\\\" /Fd"cmTC_f3a7d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30140 版
           版权所有(C) Microsoft Corporation。保留所有权利。
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6fcda.dir\\Debug\\\\" /Fd"cmTC_6fcda.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f3a7d.dir\\Debug\\\\" /Fd"cmTC_f3a7d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-0fbavy\\Debug\\cmTC_6fcda.exe" /INCREMENTAL /ILK:"cmTC_6fcda.dir\\Debug\\cmTC_6fcda.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-0fbavy/Debug/cmTC_6fcda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-0fbavy/Debug/cmTC_6fcda.lib" /MACHINE:X64  /machine:x64 cmTC_6fcda.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_6fcda.vcxproj -> D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-0fbavy\\Debug\\cmTC_6fcda.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-budqoq\\Debug\\cmTC_f3a7d.exe" /INCREMENTAL /ILK:"cmTC_f3a7d.dir\\Debug\\cmTC_f3a7d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-budqoq/Debug/cmTC_f3a7d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Github/xLua/build/luac/build64/CMakeFiles/CMakeScratch/TryCompile-budqoq/Debug/cmTC_f3a7d.lib" /MACHINE:X64  /machine:x64 cmTC_f3a7d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f3a7d.vcxproj -> D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-budqoq\\Debug\\cmTC_f3a7d.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_6fcda.dir\\Debug\\cmTC_6fcda.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_6fcda.dir\\Debug\\cmTC_6fcda.tlog\\cmTC_6fcda.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-0fbavy\\cmTC_6fcda.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_f3a7d.dir\\Debug\\cmTC_f3a7d.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f3a7d.dir\\Debug\\cmTC_f3a7d.tlog\\cmTC_f3a7d.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\Github\\xLua\\build\\luac\\build64\\CMakeFiles\\CMakeScratch\\TryCompile-budqoq\\cmTC_f3a7d.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:00.53
+        已用时间 00:00:00.50
         
       exitCode: 0
   -

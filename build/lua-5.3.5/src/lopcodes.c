@@ -19,18 +19,6 @@
 
 LUAI_DDEF const char *const luaP_opnames[NUM_OPCODES+1] = {
   "MOVE",
-  "LOADK",
-  "LOADKX",
-  "LOADBOOL",
-  "LOADNIL",
-  "GETUPVAL",
-  "GETTABUP",
-  "GETTABLE",
-  "SETTABUP",
-  "SETUPVAL",
-  "SETTABLE",
-  "NEWTABLE",
-  "SELF",
   "ADD",
   "SUB",
   "MUL",
@@ -47,6 +35,11 @@ LUAI_DDEF const char *const luaP_opnames[NUM_OPCODES+1] = {
   "BNOT",
   "NOT",
   "LEN",
+  "LOADK",
+  "LOADKX",
+  "LOADBOOL",
+  "LOADNIL",
+  "SELF",
   "CONCAT",
   "JMP",
   "EQ",
@@ -64,6 +57,13 @@ LUAI_DDEF const char *const luaP_opnames[NUM_OPCODES+1] = {
   "SETLIST",
   "CLOSURE",
   "VARARG",
+  "GETUPVAL",
+  "GETTABUP",
+  "GETTABLE",
+  "SETTABUP",
+  "SETUPVAL",
+  "SETTABLE",
+  "NEWTABLE",
   "EXTRAARG",
   NULL
 };
@@ -74,18 +74,6 @@ LUAI_DDEF const char *const luaP_opnames[NUM_OPCODES+1] = {
 LUAI_DDEF const lu_byte luaP_opmodes[NUM_OPCODES] = {
 /*       T  A    B       C     mode		   opcode	*/
   opmode(0, 1, OpArgR, OpArgN, iABC)		/* OP_MOVE */
- ,opmode(0, 1, OpArgK, OpArgN, iABx)		/* OP_LOADK */
- ,opmode(0, 1, OpArgN, OpArgN, iABx)		/* OP_LOADKX */
- ,opmode(0, 1, OpArgU, OpArgU, iABC)		/* OP_LOADBOOL */
- ,opmode(0, 1, OpArgU, OpArgN, iABC)		/* OP_LOADNIL */
- ,opmode(0, 1, OpArgU, OpArgN, iABC)		/* OP_GETUPVAL */
- ,opmode(0, 1, OpArgU, OpArgK, iABC)		/* OP_GETTABUP */
- ,opmode(0, 1, OpArgR, OpArgK, iABC)		/* OP_GETTABLE */
- ,opmode(0, 0, OpArgK, OpArgK, iABC)		/* OP_SETTABUP */
- ,opmode(0, 0, OpArgU, OpArgN, iABC)		/* OP_SETUPVAL */
- ,opmode(0, 0, OpArgK, OpArgK, iABC)		/* OP_SETTABLE */
- ,opmode(0, 1, OpArgU, OpArgU, iABC)		/* OP_NEWTABLE */
- ,opmode(0, 1, OpArgR, OpArgK, iABC)		/* OP_SELF */
  ,opmode(0, 1, OpArgK, OpArgK, iABC)		/* OP_ADD */
  ,opmode(0, 1, OpArgK, OpArgK, iABC)		/* OP_SUB */
  ,opmode(0, 1, OpArgK, OpArgK, iABC)		/* OP_MUL */
@@ -102,6 +90,11 @@ LUAI_DDEF const lu_byte luaP_opmodes[NUM_OPCODES] = {
  ,opmode(0, 1, OpArgR, OpArgN, iABC)		/* OP_BNOT */
  ,opmode(0, 1, OpArgR, OpArgN, iABC)		/* OP_NOT */
  ,opmode(0, 1, OpArgR, OpArgN, iABC)		/* OP_LEN */
+ ,opmode(0, 1, OpArgK, OpArgN, iABx)		/* OP_LOADK */
+ ,opmode(0, 1, OpArgN, OpArgN, iABx)		/* OP_LOADKX */
+ ,opmode(0, 1, OpArgU, OpArgU, iABC)		/* OP_LOADBOOL */
+ ,opmode(0, 1, OpArgU, OpArgN, iABC)		/* OP_LOADNIL */
+ ,opmode(0, 1, OpArgR, OpArgK, iABC)		/* OP_SELF */
  ,opmode(0, 1, OpArgR, OpArgR, iABC)		/* OP_CONCAT */
  ,opmode(0, 0, OpArgR, OpArgN, iAsBx)		/* OP_JMP */
  ,opmode(1, 0, OpArgK, OpArgK, iABC)		/* OP_EQ */
@@ -119,6 +112,13 @@ LUAI_DDEF const lu_byte luaP_opmodes[NUM_OPCODES] = {
  ,opmode(0, 0, OpArgU, OpArgU, iABC)		/* OP_SETLIST */
  ,opmode(0, 1, OpArgU, OpArgN, iABx)		/* OP_CLOSURE */
  ,opmode(0, 1, OpArgU, OpArgN, iABC)		/* OP_VARARG */
+ ,opmode(0, 1, OpArgU, OpArgN, iABC)		/* OP_GETUPVAL */
+ ,opmode(0, 1, OpArgU, OpArgK, iABC)		/* OP_GETTABUP */
+ ,opmode(0, 1, OpArgR, OpArgK, iABC)		/* OP_GETTABLE */
+ ,opmode(0, 0, OpArgK, OpArgK, iABC)		/* OP_SETTABUP */
+ ,opmode(0, 0, OpArgU, OpArgN, iABC)		/* OP_SETUPVAL */
+ ,opmode(0, 0, OpArgK, OpArgK, iABC)		/* OP_SETTABLE */
+ ,opmode(0, 1, OpArgU, OpArgU, iABC)		/* OP_NEWTABLE */
  ,opmode(0, 0, OpArgU, OpArgU, iAx)		/* OP_EXTRAARG */
 };
 
