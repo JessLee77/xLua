@@ -252,6 +252,11 @@ echo     bash make_osx_lua53.sh
 echo     bash make_osx_silicon_lua53.sh
 echo   All scripts now include -DLUAC_COMPATIBLE_FORMAT=ON
 echo.
+echo   macOS bytecode tools (luac/lua, universal arm64+x86_64):
+echo     cd build/luac
+echo     bash make_osx.sh
+echo   Output: tools/lua53/osx/luac, tools/lua53/osx/lua
+echo.
 
 REM =============================================================================
 REM Build Summary
@@ -270,8 +275,9 @@ echo                    plugin_lua53/Plugins/Android/libs/x86/libxlua.so
 echo     [iOS]          (requires macOS build)
 echo.
 echo   Bytecode Tools:
-echo     [x64]          tools/lua53/win64/luac.exe
-echo     [x86]          tools/lua53/win32/luac.exe
+echo     [Windows x64]  tools/lua53/win64/luac.exe
+echo     [Windows x86]  tools/lua53/win32/luac.exe
+echo     [macOS]        tools/lua53/osx/luac (requires macOS build: build/luac/make_osx.sh)
 echo.
 echo   Usage:
 echo     tools\lua53\win64\luac.exe -o output.bytes input.lua
